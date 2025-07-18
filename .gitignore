@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+.env
+*.env
+
+# Ignore migrations (optional, only if you recreate them regularly)
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+*.pid
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Local settings (optional)
+local_settings.py
+
+# Node (if using)
+node_modules/
+
+# JetBrains IDEs
+*.iml
